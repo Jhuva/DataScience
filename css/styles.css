@@ -612,6 +612,10 @@ input:focus {
     margin-left: 18px;
     transition: all .3s ease;
 }
+.form-register__error {
+    color: #e03f5d;
+    padding: 5px 2px;
+}
 .form-register__button:hover {
     cursor: pointer;
     background-color: #e03f5d;

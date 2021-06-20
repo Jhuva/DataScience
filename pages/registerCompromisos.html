@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science: Cursos online profesional</title>
+    <link rel="shortcut icon" href="../img/logo.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">    
+
+</head>
+<body>
+
+    <div>
+
+        <header class="menu-bar-pc">
+            <a href="#" class="logo">
+                <img src="../img/logo-dsrp-blanco.png" alt="logo">
+            </a>
+        </header>
+
+        <section class="header-bottom">
+            <div class="stepDots">
+                <div class="stepDots-content">
+                    <div class="stepDots-dot active">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Nombre Correo</p>
+                    </div>
+                    <div class="stepDots-line complete">
+                    </div>
+                    <div class="stepDots-dot active">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Intereses</p>
+                    </div>
+                    <div class="stepDots-line complete">
+                    </div>
+                    <div class="stepDots-dot active">
+                        <i class="far fa-circle"></i>
+                        <p>Compromiso</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="headTitle">
+                    <div class="headTitle-icon">
+                        <i class="far fa-handshake"></i>
+                    </div>
+                    <div class="headTitle-content">
+                        <h2>Compromiso</h2>
+                        <p>Garantiza tu crecimiento profesional</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <form class="compromiso">
+                <div class="compromiso-content">
+                    <div class="wrapper">
+                        <div class="compromiso-horas">
+                            <p>¿Cuántas horas al día te comprometes a estudiar?</p>
+                            <div class="compromiso-horas__radioWrapper">
+                                <label for="option1" class="preregister-radio__element" id="id1" onclick="añadirColor2()">
+                                    <input type="radio" value="si" name="option" id="option1">
+                                    <span class="preregister-radio__circle"></span>
+                                    1 hora
+                                </label>
+                                <label for="option2" class="preregister-radio__element" id="id2" onclick="añadirColor2()">
+                                    <input type="radio" value="no" name="option" id="option2">
+                                    <span class="preregister-radio__circle"></span>
+                                    2 horas
+                                </label>
+                                <label for="option3" class="preregister-radio__element" id="id3" onclick="añadirColor2()">
+                                    <input type="radio" value="no" name="option" id="option3">
+                                    <span class="preregister-radio__circle"></span>
+                                    3 horas
+                                </label>
+                                <label for="option4" class="preregister-radio__element" id="id4" onclick="añadirColor2()">
+                                    <input type="radio" value="no" name="option" id="option4">
+                                    <span class="preregister-radio__circle"></span>
+                                    4 horas
+                                </label>
+                                <label for="option5" class="preregister-radio__element" id="id5" onclick="añadirColor2()">
+                                    <input type="radio" value="no" name="option" id="option5">
+                                    <span class="preregister-radio__circle"></span>
+                                    5 o más
+                                </label>
+                            </div>
+                        </div>
+                        <div class="compromiso-info">
+                            <p>Un estudiante realmente comprometido</p>
+                            <ul>
+                                <li>Estudia al menos una clase al día</li>
+                                <li>Practica y aplica lo aprendido</li>
+                                <li>Se apoya de la comunidad para reforzar su aprendizaje</li>
+                            </ul>
+                        </div>
+                        <div class="compromiso-promesas">
+                            <p class="preregister-label">Al estudiar en DataScience te comprometes a:</p>
+                            <p class="preregister-labelsmall">Selecciona todos los puntos para continuar</p>
+                            <div class="compromisos-container">
+                                <label class="preregister-radio__element" id="avance">
+                                    <input type="checkbox" value="si" id="option6">
+                                    <span class="preregister-radio__circle"></span>
+                                    Avanzaré en mi aprendizaje todos los días
+                                </label>
+                                <label  class="preregister-radio__element" id="leer">
+                                    <input type="checkbox" value="no" id="option7">
+                                    <span class="preregister-radio__circle"></span>
+                                    Siempre leeré los aportes de la comunidad
+                                </label>
+                                <label class="preregister-radio__element" id="examen">
+                                    <input type="checkbox" value="no" id="option8">
+                                    <span class="preregister-radio__circle"></span>
+                                    Presentaré y aprobaré los exámenes sin miedo
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="compromiso-content footer">
+                    <div class="wrapper">
+                        <a href="../index.html">
+                            <button type="button" class="preregister-submit" id="confirm-id">
+                                Continuar
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        
+
+        <script src="../js/app.js"></script>
+
+</body>
+</html>

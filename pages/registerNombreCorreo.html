@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science: Cursos online profesional</title>
+    <link rel="shortcut icon" href="../img/logo.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">    
+
+</head>
+<body>
+
+    <div>
+
+        <header class="menu-bar-pc">
+            <a href="#" class="logo">
+                <img src="../img/logo-dsrp-blanco.png" alt="logo">
+            </a>
+        </header>
+
+        <section class="header-bottom">
+            <div class="stepDots">
+                <div class="stepDots-content">
+                    <div class="stepDots-dot active">
+                        <i class="far fa-circle"></i>
+                        <p>Nombre Correo</p>
+                    </div>
+                    <div class="stepDots-line">
+                    </div>
+                    <div class="stepDots-dot">
+                        <i class="far fa-circle"></i>
+                        <p>Intereses</p>
+                    </div>
+                    <div class="stepDots-line">
+                    </div>
+                    <div class="stepDots-dot">
+                        <i class="far fa-circle"></i>
+                        <p>Compromiso</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="headTitle">
+                    <div class="headTitle-icon">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="headTitle-content">
+                        <h2>Estás a unos pasos de adquirir conocimiento para toda la vida</h2>
+                        <p>Completa tus datos para crear tu cuenta</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <form class="preregister">
+                <div class="preregister-content">
+                    <div class="wrapper">
+                        <p class="preregister-label">Nombre completo</p>
+                        <p class="preregister-span">Así aparecerá en tus certificados</p>
+                        <div class="preregister-row">
+                            <div class="input inputColor">
+                                <input type="text" class="form-input" id="nombre" placeholder="Nombre(s)">
+                            </div>
+                            <div class="input inputColor"">
+                                <input type="text" class="form-input" id="apellido" placeholder="Apellido(s)">
+                            </div>
+                        </div>
+                        <p class="preregister-label">Correo electrónico</p>
+                        <p class="preregister-span">Te enviaremos un email de confirmación para activar tu cuenta si no lo has hecho antes</p>
+                        <div class="input inputColor">
+                            <input type="email" class="form-input" placeholder="tunombre@correo.com" id="correo">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="preregister-content top">
+                    <div class="wrapper top">
+                        <p class="preregister-label">¿Tienes WhatsApp?</p>
+                        <div class="preregister-radio row">
+                            <label for="option1" class="preregister-radio__element" id="si" onclick="añadirColor()">
+                                <input type="radio" value="si" name="option" id="option1" onclick="mostrarTelefono()">
+                                <span class="preregister-radio__circle"></span>
+                                Sí
+                            </label>
+                            <label for="option2" class="preregister-radio__element" id="no" onclick="añadirColor()">
+                                <input type="radio" value="no" name="option" id="option2" onclick="ocultarTelefono()">
+                                <span class="preregister-radio__circle"></span>
+                                No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="preregister-content phone" id="phone">
+                    <div class="wrapper">
+                        <p class="preregister-label">Ingresa un número de celular válido para contacto</p>
+                        <div class="telefono">
+                            <div class="telefono-code">
+                                <button type="button" class="telefono-button">
+                                    <img src="../img/Flag_of_Peru.png" alt="Perú" width="28px" class="country">
+                                    <span>+51</span>
+                                </button>
+                            </div>
+                            <div class="input">
+                                <input type="text" id="telefono" class="form-input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preregister-content footer">
+                    <div class="wrapper">
+                        <div class="preregister-link">
+                            <a href="#"><span>¿Ya tienes una cuenta Platzi?</span>Entra aquí</a>
+                        </div>
+                        <a href="./registerCompromisos.html">
+                            <button type="button" class="preregister-submit" id="confirm-id">
+                                Continuar
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                
+            </form>
+        </section>
+
+    </div>
+
+    <script src="../js/app.js"></script>
+
+</body>
+</html>
